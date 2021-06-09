@@ -1,4 +1,3 @@
-# Test-Driven Development Dojo
+# Test-Driven Development Dojo (道場)
 
 The Way of Test-Drive Development
-
