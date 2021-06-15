@@ -42,7 +42,7 @@ mkdir build && cd $_
 cmake ../ && make
 ```
 
-## Execute
+### Execute
 
 Once built, it's possible to find the binaries inside the `build/bin` directory,
 and run it from there:
