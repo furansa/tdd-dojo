@@ -7,6 +7,9 @@ Each directory contains a small project, some of the code were extracted from
 good references such as books, articles and courses, while other code were created
 by own.
 
+The languages used doesn't matter since the focus is the TDD, but I'll try to stick
+to: C++, Python, Go and maybe also Rust (since I really want to learn this one).
+
 ## Soundex
 
 From Jeff Langr's [*Modern C++ Programming with Test-Driven Development*](https://pragprog.com/titles/lotdd/modern-c-programming-with-test-driven-development).
