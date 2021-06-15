@@ -15,9 +15,10 @@ to: C++, Python, Go and maybe also Rust (since I really want to learn this one).
 From Jeff Langr's [*Modern C++ Programming with Test-Driven Development*](https://pragprog.com/titles/lotdd/modern-c-programming-with-test-driven-development).
 
 Each numbered directory contains a different development stage starting from the
-most basic test and code possible. Also, it's not guarantee that the code here
-follow exactly the same from the book just because at certain point I found
-useful to add different tests or change the approach of an existing one.
+most basic test and code possible. Also, it's not guaranteed the code here will
+follow exactly the same from the book just because at certain point it can be
+interesting for me to add different tests or change the approach of an existing
+one.
 
 ### Build
 
