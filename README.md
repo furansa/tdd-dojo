@@ -47,8 +47,8 @@ cmake ../ && make
 
 ### Execute
 
-Once built, it's possible to find the binaries inside the `build/bin` directory,
-and run it from there:
+Once built, it's possible to find the binaries for the test suites inside the
+`build/bin` directory, and run it from there:
 
 ```console
 $ cd build/bin
