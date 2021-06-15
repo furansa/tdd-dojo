@@ -41,3 +41,23 @@ run:
 mkdir build && cd $_
 cmake ../ && make
 ```
+
+## Execute
+
+Once built, it's possible to find the binaries inside the `build/bin` directory,
+and run it from there:
+
+```console
+$ cd build/bin
+$ ./SoundexTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SoundexEncoding
+[ RUN      ] SoundexEncoding.RetainsSleLetterOfOneLetterWord
+[       OK ] SoundexEncoding.RetainsSleLetterOfOneLetterWord (0 ms)
+[----------] 1 test from SoundexEncoding (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+```
