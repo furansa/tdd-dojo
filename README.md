@@ -10,6 +10,8 @@ by own.
 The languages used doesn't matter since the focus is the TDD, but I'll try to stick
 to: C++, Python, Go and maybe also Rust (since I really want to learn this one).
 
+Last but not least, I really expect this to be a permanent **work in progress**.
+
 ## Soundex
 
 From Jeff Langr's [*Modern C++ Programming with Test-Driven Development*](https://pragprog.com/titles/lotdd/modern-c-programming-with-test-driven-development).
