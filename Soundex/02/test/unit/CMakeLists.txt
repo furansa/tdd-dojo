@@ -28,13 +28,13 @@ CPMAddPackage(
         "gtest_force_shared_crt ON"
 )
 
-add_executable(SoundexTest01
+add_executable(SoundexTest02
     ../../src/Soundex.hpp
     ../../src/Soundex.cpp
     SoundexTest.cpp
 )
 
-target_link_libraries(SoundexTest01
+target_link_libraries(SoundexTest02
     gmock
     gtest
 )

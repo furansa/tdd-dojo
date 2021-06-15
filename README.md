@@ -52,7 +52,7 @@ and run it from there:
 
 ```console
 $ cd build/bin
-$ ./SoundexTest
+$ ./SoundexTest01
 [==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
 [----------] 1 test from SoundexEncoding
