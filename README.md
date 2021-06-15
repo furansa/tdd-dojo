@@ -18,13 +18,18 @@ useful to add different tests or change the approach of an existing one.
 
 ### Build
 
-To build this project it's necessary to have installed the C++ compiler, GCC
-version 9 or greater for example, along with CMake version 3.18.4 or greater.
+To build this project it's necessary to have installed one [C++ compiler which
+supports C++17](https://en.cppreference.com/w/cpp/compiler_support/17), *GCC*
+version 9 or greater for example along with [*CMake*](https://cmake.org) version
+3.18.4 or greater.
 
 I've configured [CPM](https://github.com/cpm-cmake/CPM.cmake) in order to provide
-some other dependencies such as [Boost libraries](https://www.boost.org),
+some mandatory dependencies such as [Boost libraries](https://www.boost.org),
 [Google Test](https://github.com/google/googletest) and so on. This also differs
 from the original codebase provided in the book.
+
+Other tools such as *ccache* and *cppcheck* are optional and can be removed from
+the [CMakeLists.txt](./Soundex/01/CMakeLists.txt) files.
 
 From the repository root directory, which contains this [CMakeLists.txt](./CMakeLists.txt),
 run:
