@@ -35,6 +35,14 @@ TEST_F(SoundexEncoding, ReplacesConsonantsWithAppropriateDigits) {
     ASSERT_THAT(encoded, Eq("A200"));
 }
 
+TEST_F(SoundexEncoding, IgnoresNonAlphabetics) {
+    // Act
+    auto encoded = soundex.encode("A#");
+
+    // Assert
+    ASSERT_THAT(encoded, Eq("A000"));
+}
+
 int main(int argc, char** argv) {
     testing::InitGoogleMock(&argc, argv);
     return RUN_ALL_TESTS();
