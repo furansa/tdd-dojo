@@ -4,3 +4,4 @@ project(TDD-Dojo)
 
 add_subdirectory(./Soundex/01)
 add_subdirectory(./Soundex/02)
+add_subdirectory(./Soundex/03)
